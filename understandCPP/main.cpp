@@ -8,12 +8,14 @@
 
 #include <iostream>
 #include "Variables.hpp"
+#include "ConditionsAndBranching.hpp"
 
 int main(int argc, const char * argv[]) {
     
     std::cout << "Hello, world!" << std::endl;
     
-    runVariables();
+//    runVariables();
+    runConditions();
     
     return 0; // 0 means success
     
