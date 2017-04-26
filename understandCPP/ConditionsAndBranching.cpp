@@ -16,4 +16,11 @@ void runConditions() {
     } else if (x == 10) {
         std::cout << "X is 10" << std::endl; // the loop never gets here.
     }
+    
+    
+    int a = 2, b = 3;
+    
+    if (a > 4, b > 1) { // this will only look at the last operation of the comma separated list.  If it is true, it will return true and go into the if block.
+        std::cout << "Something" << std::endl;
+    }
 }
