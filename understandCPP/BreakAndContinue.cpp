@@ -27,3 +27,15 @@ void runBreakAndContinue() {
     
     std::cout << "Sum is " << sum << std::endl;
 }
+
+void runContinue() {
+    for (int i = 1; i < 20; i++) {
+        if (i % 3 == 0) {
+            continue; // skips this iteration and go to the next one
+            
+        }
+        
+        std::cout << i << std::endl;
+        
+    }
+}

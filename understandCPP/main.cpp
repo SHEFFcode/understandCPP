@@ -17,7 +17,8 @@ int main(int argc, const char * argv[]) {
     
 //    runVariables();
 //    runConditions();
-    runBreakAndContinue();
+//    runBreakAndContinue();
+    runContinue();
     
     return 0; // 0 means success
     

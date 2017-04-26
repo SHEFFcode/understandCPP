@@ -12,5 +12,6 @@
 #include <stdio.h>
 
 void runBreakAndContinue();
+void runContinue();
 
 #endif /* BreakAndContinue_hpp */
