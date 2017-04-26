@@ -11,6 +11,7 @@
 		E8DF476B1EB05FC400081BC5 /* Variables.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DF47691EB05FC400081BC5 /* Variables.cpp */; };
 		E8DF476E1EB0675000081BC5 /* AutoKeyword.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DF476C1EB0675000081BC5 /* AutoKeyword.cpp */; };
 		E8DF47711EB06A0300081BC5 /* ConditionsAndBranching.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DF476F1EB06A0300081BC5 /* ConditionsAndBranching.cpp */; };
+		E8DF47741EB06EE000081BC5 /* BreakAndContinue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8DF47721EB06EE000081BC5 /* BreakAndContinue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		E8DF476D1EB0675000081BC5 /* AutoKeyword.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AutoKeyword.hpp; sourceTree = "<group>"; };
 		E8DF476F1EB06A0300081BC5 /* ConditionsAndBranching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConditionsAndBranching.cpp; sourceTree = "<group>"; };
 		E8DF47701EB06A0300081BC5 /* ConditionsAndBranching.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ConditionsAndBranching.hpp; sourceTree = "<group>"; };
+		E8DF47721EB06EE000081BC5 /* BreakAndContinue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BreakAndContinue.cpp; sourceTree = "<group>"; };
+		E8DF47731EB06EE000081BC5 /* BreakAndContinue.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BreakAndContinue.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				E8DF476D1EB0675000081BC5 /* AutoKeyword.hpp */,
 				E8DF476F1EB06A0300081BC5 /* ConditionsAndBranching.cpp */,
 				E8DF47701EB06A0300081BC5 /* ConditionsAndBranching.hpp */,
+				E8DF47721EB06EE000081BC5 /* BreakAndContinue.cpp */,
+				E8DF47731EB06EE000081BC5 /* BreakAndContinue.hpp */,
 			);
 			path = understandCPP;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8DF47741EB06EE000081BC5 /* BreakAndContinue.cpp in Sources */,
 				E8DF47711EB06A0300081BC5 /* ConditionsAndBranching.cpp in Sources */,
 				E8DF476E1EB0675000081BC5 /* AutoKeyword.cpp in Sources */,
 				E8DF47631EB05B0E00081BC5 /* main.cpp in Sources */,

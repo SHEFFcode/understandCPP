@@ -9,13 +9,15 @@
 #include <iostream>
 #include "Variables.hpp"
 #include "ConditionsAndBranching.hpp"
+#include "BreakAndContinue.hpp"
 
 int main(int argc, const char * argv[]) {
     
     std::cout << "Hello, world!" << std::endl;
     
 //    runVariables();
-    runConditions();
+//    runConditions();
+    runBreakAndContinue();
     
     return 0; // 0 means success
     
