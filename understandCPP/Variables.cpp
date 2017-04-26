@@ -7,6 +7,7 @@
 //
 #include <iostream>
 #include "Variables.hpp"
+#define PI 3.14
 
 void runVariables() {
 
@@ -25,6 +26,11 @@ void runVariables() {
     std::cin >> number;
     
     std::cout << "Your number multiplied by 2 is " << number * 2 << std::endl;
+    
+    const int pi = 3.14;// value cannot be changed later on in the program.
+    float two = 2.0f;
+    
+    float pitwp = PI * two;
     
     
     
