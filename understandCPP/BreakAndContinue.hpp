@@ -13,5 +13,6 @@
 
 void runBreakAndContinue();
 void runContinue();
+void runGoTo();
 
 #endif /* BreakAndContinue_hpp */

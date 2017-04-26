@@ -39,3 +39,14 @@ void runContinue() {
         
     }
 }
+
+void runGoTo() {
+    int i = 1;
+    
+    AGAIN:
+    std::cout << i << std::endl;
+    ++i;
+    if (i < 20)
+        goto AGAIN;
+    
+}
