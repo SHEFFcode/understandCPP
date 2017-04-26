@@ -7,10 +7,13 @@
 //
 
 #include <iostream>
+#include "Variables.hpp"
 
 int main(int argc, const char * argv[]) {
     
     std::cout << "Hello, world!" << std::endl;
+    
+    runVariables();
     
     return 0; // 0 means success
     
