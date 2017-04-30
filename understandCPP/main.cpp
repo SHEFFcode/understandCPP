@@ -10,6 +10,7 @@
 #include "Variables.hpp"
 #include "ConditionsAndBranching.hpp"
 #include "BreakAndContinue.hpp"
+#include "ArrayAlgorithms.hpp"
 
 int main(int argc, const char * argv[]) {
     
@@ -19,7 +20,9 @@ int main(int argc, const char * argv[]) {
 //    runConditions();
 //    runBreakAndContinue();
 //    runContinue();
-    runGoTo();
+//    runGoTo();
+    int max = runArrayAlgos();
+    std::cout << max << std::endl;
     
     return 0; // 0 means success
     
